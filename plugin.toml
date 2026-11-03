@@ -1,0 +1,9 @@
+id = "model-lab"
+name = "Model Lab"
+description = "Explore a project's Bend state machines, check their laws, and replay failures against its architecture."
+sdk = 13
+entry = "plugin.luau"
+styles = ["plugin.css"]
+
+[effects]
+run = ["bun"]
